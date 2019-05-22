@@ -2,5 +2,6 @@ extends layout
 
 block content
     div(class='container')
-        h1 #{title}
-        div(class='leaderboard')!= data
+        h1(class='title')!= title
+
+        div(class='leaderboard')!= tableData
