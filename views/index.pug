@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1(class="center")= title
+  p(class="center") 
+    | Welcome to #{title}!
+  p(class="center")
+    | Go to 
+    a(href="/leaderboard") /leaderboard
+    | , to view the TrackMania: Mania zones leaderboard
