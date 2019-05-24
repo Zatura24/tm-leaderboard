@@ -1,3 +1,17 @@
 .leaderboard {
     margin-top: 1em;
 }
+
+table.striped > tbody > tr:nth-child(odd) {
+    background-color: #e8f5e9 !important;
+}
+
+table.striped > tbody > tr.subTitleTableRank > td {
+    font-weight: bold;
+}
+
+table.striped > tbody > tr:not(.subTitleTableRank) > td:nth-child(2) {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+  
